@@ -405,10 +405,18 @@ section {
 }
 
 /* Media query for tablets and smaller */
-@media screen and (max-wdith: 768px) {
+@media screen and (max-width: 768px) {
     section {
         padding: 30px 15px;
     }
+
+    
+    /* .step {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        width: 100%;
+    }   */
 
     .step h3 {
         flex: 1 100%;
@@ -416,7 +424,7 @@ section {
     }
 
     .step-info {
-        flex: 2 100%;
+        flex: 3 100%;
         text-align: center;
         justify-content: center;
     }
